@@ -6,4 +6,12 @@ public class romanNumerals {
     		return false;
 		return true;
 	}
+	
+	 static String NumberToRomain(int x)
+	 {
+	      String s;
+	      s = "";
+	      return s;
+	 }
+	 
 }

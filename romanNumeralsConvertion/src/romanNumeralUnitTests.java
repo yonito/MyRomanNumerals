@@ -10,6 +10,7 @@ public class romanNumeralUnitTests {
 	public void test()
 	{
 		assertEquals(false, n.checkInput(-3));
+		assertEquals("I", n.NumberToRomain(1));
 	}
 
 }
