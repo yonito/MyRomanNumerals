@@ -11,6 +11,18 @@ public class romanNumerals {
 	 {
 	      String s;
 	      s = "";
+	      switch((x % 1000) / 100)
+	      {
+	       case 9: s+="CM";break;
+	       case 8: s+="DCCC";break;
+	       case 7: s+="DCC";break;
+	       case 6: s+="DC";break;
+	       case 5: s+="D";break;
+	       case 4: s+="CD";break;
+	       case 3: s+="CCC";break;
+	       case 2: s+="CC";break;
+	       case 1: s+="C";break;
+	      }
 	      switch((x % 100) / 10)
 	      {
 	       case 9: s+="XC";break;
